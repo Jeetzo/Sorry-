@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<head>
+<title>okii</title>
+<script>
+function Click_91()
+{
+a="Y";
+b=document.f1.i.value;
+if (a==b)
+{
+alert("Msg U later");
+}
+else
+{
+alert("Sorry yaar");
+}
+}
+</script>
+</head>
+<body bgcolor="lightpink">
+<h1>R Uhh Okii ?? </h1>
+<form name="f1">
+ Y/N ??<input type="text" name="i">
+<button onclick="Click_91()"> Send </button>
+</form>
+</body>
+</html>
